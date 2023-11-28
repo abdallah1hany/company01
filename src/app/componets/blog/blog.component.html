@@ -1,0 +1,104 @@
+<section class="home-blog-area ptb-100" id="blog">
+  <div class="container">
+    <div class="section-title">
+      <span>{{ "blog.title" | translate }}</span>
+      <h2>{{ "blog.headSubtitle" | translate }}</h2>
+      <p>
+        {{ "blog.subtitle" | translate }}
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="single-blog">
+          <div class="blog-img">
+            <a routerLink="/blog-details"
+              ><img src="assets/images/blog/1.jpg" alt="blog"
+            /></a>
+          </div>
+
+          <div class="content">
+            <ul>
+              <li>{{ "blog.blog1.date" | translate }}</li>
+              <li>
+                <a routerLink="/blog">{{ "blog.blog1.by" | translate }}</a>
+              </li>
+            </ul>
+            <a routerLink="/blog-details"
+              ><h3>{{ "blog.blog1.title" | translate }}</h3></a
+            >
+            <p>
+              {{ "blog.blog1.subtitle" | translate }}
+            </p>
+            <a routerLink="/blog-details" class="line-bnt">
+              {{ "blog.blog1.button" | translate }}</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="single-blog">
+          <div class="blog-img">
+            <a routerLink="/blog-details"
+              ><img src="assets/images/blog/5.jpg" alt="blog"
+            /></a>
+          </div>
+
+          <div class="content">
+            <ul>
+              <li>{{ "blog.blog1.date" | translate }}</li>
+              <li>
+                <a routerLink="/blog">{{ "blog.blog2.by" | translate }}</a>
+              </li>
+            </ul>
+            <a routerLink="/blog-details"
+              ><h3>{{ "blog.blog2.title" | translate }}</h3></a
+            >
+            <p>
+              {{ "blog.blog2.subtitle" | translate }}
+            </p>
+            <a routerLink="/blog-details" class="line-bnt">
+              {{ "blog.blog1.button" | translate }}</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+        <div class="single-blog">
+          <div class="blog-img">
+            <a routerLink="/blog-details"
+              ><img src="assets/images/blog/2.jpg" alt="blog"
+            /></a>
+          </div>
+
+          <div class="content">
+            <ul>
+              <li>{{ "blog.blog1.date" | translate }}</li>
+              <li>
+                <a routerLink="/blog">{{ "blog.blog3.by" | translate }}</a>
+              </li>
+            </ul>
+            <a routerLink="/blog-details"
+              ><h3>{{ "blog.blog3.title" | translate }}</h3></a
+            >
+            <p>
+              {{ "blog.blog3.subtitle" | translate }}
+            </p>
+            <a routerLink="/blog-details" class="line-bnt">
+              {{ "blog.blog1.button" | translate }}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog-btn text-center">
+      <p>
+        {{ "blog.more" | translate }}
+        <a routerLink="/blog"> {{ "blog.button" | translate }}</a>
+      </p>
+    </div>
+  </div>
+</section>

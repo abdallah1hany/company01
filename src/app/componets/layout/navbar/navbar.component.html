@@ -1,0 +1,66 @@
+<nav
+  class="navbar navbar-expand-lg fixed-top"
+  [ngClass]="{
+    'navbar-transparent': isTransparentNavbar,
+    'navbar-opaque': !isTransparentNavbar
+  }"
+>
+  <div class="container">
+    <!-- Replace the text-based brand with an image-based brand -->
+    <a class="navbar-brand" href="#">
+      <img src="/assets/images/logo.png" alt="Company Logo" class="logo" />
+    </a>
+
+    <!-- Add the toggler button for responsive navigation -->
+    <button
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      class="navbar-toggler"
+      data-bs-target="#navbarSupportedContent"
+      data-bs-toggle="collapse"
+      type="button"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Add the navigation links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 rtlClass">
+        <li class="nav-item">
+          <a class="nav-link" href="#">{{ "nav.home" | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">{{ "nav.about" | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">{{
+            "nav.services" | translate
+          }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#works">{{
+            "nav.portfolio" | translate
+          }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">{{ "nav.blog" | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="box-btn" href="#contact">{{ "nav.contact" | translate }}</a>
+        </li>
+        <li class="nav-item lang">
+          <ng-select
+            [items]="['en', 'ar']"
+            [clearable]="false"
+            [searchable]="false"
+            [ngModel]="currentLang"
+            (change)="changeLanguage($event)"
+            class="nav-link re"
+          >
+          </ng-select>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

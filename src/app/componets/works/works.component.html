@@ -1,0 +1,395 @@
+<section class="home-case pb-100 mt-4" id="works">
+  <div class="container">
+    <div class="section-title">
+      <span>Case Studies</span>
+      <h2>Have a Look Our Work Showcase</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+        suspendisse.
+      </p>
+    </div>
+    <div class="case">
+      <ul class="nav-tabset">
+        <li class="nav-tab" [ngClass]="{ active: currentTab === 'tab1' }">
+          <span (click)="switchTab($event, 'tab1')"> All </span>
+        </li>
+        <li class="nav-tab" [ngClass]="{ active: currentTab === 'tab2' }">
+          <span (click)="switchTab($event, 'tab2')"> Design </span>
+        </li>
+        <li class="nav-tab" [ngClass]="{ active: currentTab === 'tab3' }">
+          <span (click)="switchTab($event, 'tab3')"> Development </span>
+        </li>
+        <li class="nav-tab" [ngClass]="{ active: currentTab === 'tab4' }">
+          <span (click)="switchTab($event, 'tab4')"> IT </span>
+        </li>
+      </ul>
+      <div class="tabs-container">
+        <div class="pane" id="tab1" *ngIf="currentTab === 'tab1'">
+          <div class="row case-list">
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c1.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>Joe’s Company Software Development Case</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c2.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>Ride Share App UX Studies & Development Case</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c3.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>Restaurant Management & Web Developing</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c4.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>IT Software Company Development Case</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c5.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>Parking Management & Web Developing</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c6.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>Temperature App UX Studies & Development Case</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pane" id="tab2" *ngIf="currentTab === 'tab2'">
+          <div class="row case-list">
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c4.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>IT Software Company Development Case</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c5.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>Parking Management & Web Developing</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c6.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>Temperature App UX Studies & Development Case</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pane" id="tab3" *ngIf="currentTab === 'tab3'">
+          <div class="row case-list">
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c2.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>Ride Share App UX Studies & Development Case</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c3.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>Restaurant Management & Web Developing</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c4.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>IT Software Company Development Case</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pane" id="tab4" *ngIf="currentTab === 'tab4'">
+          <div class="row case-list">
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c6.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>Temperature App UX Studies & Development Case</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c4.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>IT Software Company Development Case</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-case">
+                <div class="case-img">
+                  <a routerLink="/case-studies-details"
+                    ><img src="assets/images/case/c5.jpg" alt="case"
+                  /></a>
+                </div>
+
+                <div class="content">
+                  <a routerLink="/case-studies-details"
+                    ><h3>Parking Management & Web Developing</h3></a
+                  >
+                  <p>
+                    Lorem ipsum dolor sit amet, coloni is to nsectetur
+                    adipiscing elit, sed do eiudvi smod tempor incididunt ipsum
+                    dolor.
+                  </p>
+                  <a routerLink="/case-studies-details" class="line-bnt"
+                    >View Project Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="case-btn text-center">
+      <p>We Have More Amazing Cases. <a routerLink="/">View More</a></p>
+    </div>
+  </div>
+</section>

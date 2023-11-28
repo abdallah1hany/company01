@@ -1,0 +1,31 @@
+<section class="home-service-area pt-100 pb-70" id="services">
+  <div class="container">
+    <div class="section-title">
+      <span>{{ "services.headTitle" | translate }}</span>
+      <h2>{{ "services.headSubtitle" | translate }}</h2>
+      <p>
+        {{ "services.subtitle" | translate }}
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-sm-6" *ngFor="let service of services">
+        <div class="single-service">
+          <div class="service-img">
+            <img src="{{ service.image }}" alt="service" />
+          </div>
+
+          <div class="service-content">
+            <h3>{{ "services." + service.title + ".title" | translate }}</h3>
+            <p class="my-5">
+              {{ "services." + service.title + ".subtitle" | translate }}
+            </p>
+            <a routerLink="/services/{{ service.id }}" class="box-btn">{{
+              "services.button" | translate
+            }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

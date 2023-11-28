@@ -1,0 +1,177 @@
+<footer class="footer-area pt-100">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="content">
+          <div class="logo">
+            <a routerLink="/"
+              ><img src="assets/images/logo.png" alt="logo"
+            /></a>
+          </div>
+          <p>
+            {{ "footer.description" | translate }}
+          </p>
+
+          <div class="subscribe">
+            <h4>{{ "footer.join" | translate }}</h4>
+            <form class="newsletter-form">
+              <input
+                type="email"
+                id="emails"
+                class="form-control"
+                [placeholder]="'footer.email' | translate"
+                name="EMAIL"
+                required
+                autocomplete="off"
+              />
+              <button class="box-btn" type="submit">
+                {{ "footer.button" | translate }}
+              </button>
+            </form>
+          </div>
+
+          <ul class="social">
+            <li>
+              <a href="#" target="_blank"
+                ><fa-icon class="icon" [icon]="faFacebook"></fa-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><fa-icon class="icon" [icon]="faTwitter"></fa-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><fa-icon class="icon" [icon]="faLinkedin"></fa-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><fa-icon class="icon" [icon]="faGooglePlus"></fa-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="content ml-15">
+          <h3>{{ "footer.services" | translate }}</h3>
+
+          <ul class="footer-list">
+            <li>
+              <a routerLink="/">{{ "services.cameras.title" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/"> {{ "services.printers.title" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/">{{
+                "services.interaction.title" | translate
+              }}</a>
+            </li>
+            <li>
+              <a routerLink="/">{{ "services.software.title" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/">{{ "services.sale.title" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/">{{ "services.networks.title" | translate }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-6">
+        <div class="content">
+          <h3>{{ "footer.quick" | translate }}</h3>
+
+          <ul class="footer-list">
+            <li>
+              <a routerLink="/faq">{{ "nav.home" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/solutions">{{ "nav.about" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/">{{ "nav.services" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/privecy">{{ "nav.portfolio" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/terms-condition">{{ "nav.blog" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/">{{ "nav.contact" | translate }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="content contacts">
+          <h3 class="ml-40">{{ "footer.contact" | translate }}</h3>
+
+          <ul class="footer-list foot-social">
+            <li>
+              <a href="tel:+1975456789"
+                ><fa-icon class="icon" [icon]="faPhone"></fa-icon>
+                966503161535</a
+              >
+            </li>
+
+            <li>
+              <a href="ebtkar@gmail.com"
+                ><fa-icon class="icon" [icon]="faEnvelope"></fa-icon>
+                ebtkar@gmail.com
+              </a>
+            </li>
+            <li>
+              <fa-icon class="icon" [icon]="faLocationDot"></fa-icon>
+              ضباء البلد
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copy-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <ul class="menu">
+            <li>
+              <a routerLink="/">{{ "nav.home" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/about">{{ "nav.about" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/solutions">{{ "nav.services" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/case">{{ "nav.portfolio" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/blog">{{ "nav.blog" | translate }}</a>
+            </li>
+            <li>
+              <a routerLink="/contact">{{ "nav.contact" | translate }}</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6">
+          <p>
+            © Algorithm is Proudly Owned by
+            <a href="www.google.com" target="_blank">Algorithm</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

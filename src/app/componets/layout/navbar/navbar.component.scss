@@ -1,0 +1,82 @@
+.navbar-transparent {
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-transparent .navbar-brand {
+  color: white; /* Adjust text color as needed */
+}
+
+/* Style for the opaque navbar */
+.navbar-opaque {
+  background-color: var(--ucla-blue); /* Add your desired background color */
+  transition: background-color 0.1s ease-in-out;
+}
+
+.navbar-opaque .navbar-brand {
+  color: #333; /* Adjust text color as needed */
+}
+
+/* Style for the logo image */
+.logo {
+  max-width: 80px; /* Adjust the maximum width as needed */
+  height: 60px;
+}
+
+.navbar-nav a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #fff !important;
+  margin-right: 10px;
+}
+.navbar-nav a:hover {
+  color: var(--yellowColor) !important;
+}
+.navbar-light .navbar-brand {
+  color: #040817;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+}
+.w-100 {
+  height: 100vh;
+}
+.navbar-toggler {
+  padding: 3px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: #fff;
+}
+.navbar-collapse {
+  text-align: center;
+}
+.navbar-collapse ul {
+  align-items: center;
+}
+
+.box-btn {
+  padding: 15px;
+}
+
+.ng-select.ng-select-single .ng-select-container {
+  background-color: #fdb800;
+}
+.nav-link.re.ng-select.ng-select-single.ng-pristine.ng-valid.ng-touched.ng-select-bottom {
+  margin: 0px 20px;
+  padding: 0px;
+  width: 60px;
+}

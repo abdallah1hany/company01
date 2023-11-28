@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contact Us"
+  },
+  "header": {
+    "title": "Trusted Effective Service and Solutions",
+    "subtitle": "We are a team of talented designers making websites with Bootstrap",
+    "button": "Know More"
+  },
+  "about": {
+    "title": "About Us",
+    "headSubtitle": "Innovative It Helping Service All Over the World",
+    "subtitle1": "We are a team of talented designers making websites with Bootstrap",
+    "subtitle2": "We are a team of talented designers making websites with Bootstrap",
+    "button": "Know More"
+  },
+  "services": {
+    "headTitle": "Our Services ",
+    "headSubtitle": "Algorithm Provide All Kind Of Tech Solutions",
+    "subtitle": "We are a team of talented designers making websites with Bootstrap",
+    "details": "Service Details",
+    "button": "Know More",
+    "cameras": {
+      "title": "Security Cameras",
+      "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "printers": {
+      "title": "Printers",
+      "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "interaction": {
+      "title": "Interaction Systems",
+      "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "queuing": {
+      "title": "Queuing Systems",
+      "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "software": {
+      "title": "Software",
+      "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "sale": {
+      "title": "Point of Sale Systems",
+      "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "security": {
+      "title": "Security",
+      "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "networks": {
+      "title": "Networks",
+      "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "features": {
+    "title": "Our Features",
+    "headSubtitle": "We Achieved People’s Trust By Our Great Service",
+    "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "button": "Know More",
+    "understanding": "Understanding",
+    "quality": "Best Quality",
+    "technology": "Technology",
+    "support": "Support 24/7",
+    "expert": "Expert Team",
+    "price": "Best Price"
+  },
+  "blog": {
+    "title": "Our Blog",
+    "headSubtitle": "We Achieved People’s Trust By Our Great Service",
+    "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "button": "View More",
+    "more": " We Have More Usefull Blogs For You.",
+    "blog1": {
+      "title": "Security Systems",
+      "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "by": "By Admin",
+      "date": "Jan 18, 2023",
+      "button": "Read More"
+    },
+    "blog2": {
+      "title": "Printers",
+      "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "by": "By Admin",
+      "date": "Jan 18, 2023",
+      "button": "Read More"
+    },
+    "blog3": {
+      "title": "Interaction Systems",
+      "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "by": "By Admin",
+      "date": "Jan 18, 2023",
+      "button": "Read More"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "headSubtitle": "We Achieved People’s Trust By Our Great Service",
+    "subtitle": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "send": "Submit",
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Your Phone",
+    "subject": "Subject",
+    "message": "Your Message"
+  },
+  "footer": {
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "join": "Join Our Newsletter Now",
+    "email": "Enter Your Email",
+    "button": "Subscribe",
+    "services": "Our Services",
+    "quick": "Quick Links",
+    "quick1": "Home",
+    "quick2": "About",
+    "quick3": "Services",
+    "quick4": "Portfolio",
+    "quick5": "Blog",
+    "quick6": "Contact",
+    "contact": "Contacts"
+  }
+}

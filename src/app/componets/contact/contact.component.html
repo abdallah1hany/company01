@@ -1,0 +1,101 @@
+<section class="home-contact-area bg-color ptb-100" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <span>
+        {{ "contact.title" | translate }}
+      </span>
+      <h2>{{ "contact.headSubtitle" | translate }}</h2>
+      <p>
+        {{ "contact.subtitle" | translate }}
+      </p>
+    </div>
+
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-md-6">
+        <div class="contact-img">
+          <img src="assets/images/contact.jpg" alt="contact" />
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6">
+        <div class="content">
+          <form id="contactForm">
+            <div class="row">
+              <div class="col-lg-12 col-sm-12">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                    required
+                    [placeholder]="'contact.name' | translate"
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-12 col-sm-12">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                    required
+                    [placeholder]="'contact.email' | translate"
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-12 col-sm-12">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="phone_number"
+                    id="phone_number"
+                    required
+                    class="form-control"
+                    [placeholder]="'contact.phone' | translate"
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-12 col-sm-12">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="msg_subject"
+                    id="msg_subject"
+                    class="form-control"
+                    required
+                    [placeholder]="'contact.subject' | translate"
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-12 col-md-12">
+                <div class="form-group">
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    id="message"
+                    cols="30"
+                    rows="5"
+                    required
+                    [placeholder]="'contact.message' | translate"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="col-lg-12 col-md-12">
+                <button type="submit" class="default-btn page-btn box-btn">
+                  {{ "contact.send" | translate }}
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
